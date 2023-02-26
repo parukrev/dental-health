@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --theme-color1: #F5FAFE;
+  --theme-color2: #1479FF;
+  --font-color: #141213;
+  --color-white: #FFFFFF;
+  --color-blue-hover: rgba(20, 121, 255, .2);
+  --main-font: "Poppins", sans-serif;
+}
