@@ -1,11 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-}
-
 :root {
   --theme-color1: #F5FAFE;
   --theme-color2: #1479FF;
@@ -13,6 +5,15 @@
   --color-white: #FFFFFF;
   --color-blue-hover: rgba(20, 121, 255, .2);
   --main-font: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--main-font);
 }
 
 body {
@@ -29,7 +30,7 @@ body {
   width: 100%;
 }
 
-.wrapper {
+.navbar .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +38,6 @@ body {
 }
 
 .navbar .navbar-brand {
-  font-family: var(--main-font);
   color: var(--font-color);
   font-size: 1.5em;
   font-weight: 600;
@@ -58,7 +58,6 @@ body {
 }
 
 .navbar .nav-link a {
-  font-family: var(--main-font);
   color: var(--font-color);
   font-size: .9em;
   font-weight: 600;
@@ -75,7 +74,6 @@ body {
 }
 
 .navbar .button {
-  font-family: var(--main-font);
   color: var(--color-white);
   background-color: var(--theme-color2);
   padding: 20px 30px;
@@ -91,7 +89,8 @@ body {
   -o-transition: .3s ease;
 }
 
-.navbar .button:hover {
+.navbar .button:hover,
+#hero .button-hero .btn-appointment:hover {
   color: var(--theme-color2);
   background-color: var(--color-white);
 }
@@ -101,7 +100,97 @@ body {
   display: none;
 }
 
-/* Responsive Navbar */
+/* Home Section */
+#hero {
+  width: 100%;
+  height: 500px;
+  background-image: url('../img/hero-1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 90% 0;
+}
+
+#hero .wrapper {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#hero .heading {
+  font-size: 4em;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: var(--font-color);
+}
+
+#hero .heading span {
+  color: var(--theme-color2);
+}
+
+#hero .desc {
+  width: 80%;
+  color: var(--font-color);
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+#hero .button-hero {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hero .button-hero .btn-appointment {
+  color: var(--color-white);
+  background-color: var(--theme-color2);
+  font-size: 1.2em;
+  font-weight: 500;
+  padding: 30px 50px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  transition: .3s ease;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -ms-transition: .3s ease;
+  -o-transition: .3s ease;
+}
+
+#hero .button-hero .btn-video {
+  color: var(--theme-color2);
+  font-size: 1.2em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+#hero .button-hero .btn-video i {
+  font-size: 3em;
+  margin-right: 20px;
+  transition: transform .3s;
+  -webkit-transition: transform .3s;
+  -moz-transition: transform .3s;
+  -ms-transition: transform .3s;
+  -o-transition: transform .3s;
+}
+
+#hero .button-hero .btn-video i:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+/* Responsive Design */
 @media screen and (max-width: 950px) {
   .navbar .menu {
     width: 60%;
