@@ -95,7 +95,6 @@ body {
   background-color: var(--color-white);
 }
 
-.menu-toggle-open,
 .menu-toggle-close {
   display: none;
 }
@@ -240,11 +239,19 @@ body {
     width: 60%;
     justify-content: center;
     align-items: center;
-    display: none;
+    margin-right: -400px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    opacity: 0;
 }
 
   .navbar .menu.off {
     display: flex;
+    margin-right: 0;
+    opacity: 1;
   }
 
   .navbar .menu ul {
