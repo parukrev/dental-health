@@ -362,6 +362,16 @@ body {
   #hero .photo {
     display: none;
   }
+
+  /* Features */
+  #features .wrapper {
+    flex-direction: column;
+  }
+
+  #features .feature {
+    width: 100%;
+    margin: 20px 0;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -382,7 +392,7 @@ body {
 
   /* Hero Section */
   #hero {
-    height: 400px;
+    height: 500px;
     /* background-color: blue; */
   }
 
@@ -426,5 +436,10 @@ body {
 
   #hero .photo {
     display: none;
+  }
+
+  /* Features */
+  #features .feature .title {
+    font-size: 1.1em;
   }
 }
