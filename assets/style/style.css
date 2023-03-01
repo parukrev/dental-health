@@ -211,11 +211,11 @@ body {
   height: 100%;
 }
 
-#features .feature-1 {
+#features .feature {
   width: 30%;
 }
 
-#features .feature-1 i {
+#features .feature i {
   font-size: 50px;
   text-align: center;
   width: 100%;
@@ -223,7 +223,7 @@ body {
   color: var(--font-color);
 }
 
-#features .feature-1 .title {
+#features .feature .title {
   font-size: 1.3em;
   font-weight: 700;
   text-align: center;
@@ -231,7 +231,7 @@ body {
   color: var(--font-color);
 }
 
-#features .feature-1 .desc {
+#features .feature .desc {
   font-size: .87em;
   font-weight: 400;
   color: var(--font-color2);
