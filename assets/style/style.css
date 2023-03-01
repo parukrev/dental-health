@@ -247,12 +247,21 @@ body {
 
 #about .wrapper {
   display: flex;
+  justify-content: center;
 }
 
 #about .photo {
-  width: 50%;
+  width: 40%;
   background-color: var(--color-blue-hover);
   margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  border: 1px solid var(--theme-color2);
+}
+
+#about .photo img {
+  width: 250px;
 }
 
 #about .content {
