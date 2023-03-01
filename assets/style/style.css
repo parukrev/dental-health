@@ -239,6 +239,51 @@ body {
   line-height: 1.2em;
 }
 
+/* About Section */
+#about {
+  width: 100%;
+  padding: 50px 0;
+}
+
+#about .wrapper {
+  display: flex;
+}
+
+#about .photo {
+  width: 50%;
+  background-color: var(--color-blue-hover);
+  margin-right: 20px;
+}
+
+#about .content {
+  width: 50%;
+  margin-left: 20px;
+}
+
+#about .content .sub-title {
+  color: var(--theme-color2);
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+#about .content .title {
+  color: var(--font-color);
+  font-size: 3.5em;
+  text-transform: capitalize;
+  font-weight: 600;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+}
+
+#about .content .desc {
+  color: var(--font-color2);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
 /* Responsive Design */
 @media screen and (max-width: 950px) {
   .navbar .menu {
