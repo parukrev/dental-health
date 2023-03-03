@@ -387,6 +387,15 @@ body {
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
+  transition: background .5s ease;
+  -webkit-transition: background .5s ease;
+  -moz-transition: background .5s ease;
+  -ms-transition: background .5s ease;
+  -o-transition: background .5s ease;
+}
+
+#services .service-row .service-box:hover {
+  background-color: var(--color-blue-hover);
 }
 
 #services .service-row .service-box.box-shadow {
