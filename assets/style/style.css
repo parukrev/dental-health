@@ -379,6 +379,10 @@ body {
   display: flex;
 }
 
+#services .service-row.row-2 {
+  margin-top: 20px;
+}
+
 #services .service-row .service-box {
   padding: 55px 40px;
   margin: 0 5px;
