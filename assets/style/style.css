@@ -2,6 +2,7 @@
   --theme-color1: #F5FAFE;
   --theme-color2: #1479FF;
   --font-color: #141213;
+  --font-color-hover: rgba(20, 18, 19, .6);
   --font-color2: #8C8C8C;
   --color-white: #FFFFFF;
   --color-blue-hover: rgba(20, 121, 255, .2);
@@ -344,6 +345,91 @@ body {
   margin: 0;
   font-size: .87em;
   width: 60%;
+}
+
+/* Services Section */
+#services {
+  background-color: var(--color-white);
+  width: 100%;
+  padding: 100px 0;
+}
+
+#services .row-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#services .row-title .title {
+  color: var(--font-color);
+  font-size: 3.5em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#services .row-title .desc {
+  color: var(--font-color-hover);
+  width: 40%;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#services .service-row {
+  margin-top: 90px;
+  display: flex;
+}
+
+#services .service-row .service-box {
+  padding: 55px 40px;
+  margin: 0 5px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+#services .service-row .service-box.box-shadow {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 15px 93px -20px;
+}
+
+#services .service-row .service-box img {
+  width: 64px;
+  margin-bottom: 30px;
+}
+
+#services .service-row .service-box .service-title {
+  color: var(--font-color);
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#services .service-row .service-box .service-desc {
+  font-size: .87em;
+  line-height: 1.5em;
+  color: var(--font-color2);
+  margin-bottom: 30px;
+}
+
+#services .service-row .service-box .read-more {
+  color: var(--font-color);
+  text-transform: capitalize;
+  font-size: .87em;
+  font-weight: 500;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+}
+
+#services .service-row .service-box .read-more i {
+  margin-left: 20px;
+}
+
+#services .service-row .service-box a:hover {
+  color: var(--theme-color2);
 }
 
 /* Responsive Design */
