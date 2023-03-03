@@ -252,10 +252,12 @@ body {
 
 #about .photo {
   width: 40%;
+  height: 500px;
   background-color: var(--color-blue-hover);
   margin-right: 20px;
   display: flex;
   justify-content: center;
+  align-items: end;
   padding-top: 50px;
   border: 1px solid var(--theme-color2);
 }
@@ -265,6 +267,9 @@ body {
 }
 
 #about .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 50%;
   margin-left: 20px;
 }
@@ -297,7 +302,10 @@ body {
 #about .content .offer {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+}
+
+#about .content .offer-1 {
+  margin-bottom: 30px;
 }
 
 #about .content .offer .icon-box {
@@ -320,6 +328,21 @@ body {
   height: 40px;
 }
 
+#about .content .offer .content-offer {
+  /* background-color: black; */
+  margin-left: 30px;
+}
+
+#about .content .offer .content-offer h4 {
+  color: var(--font-color);
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#about .content .offer .content-offer .desc {
+  margin: 0;
+}
 /* Responsive Design */
 @media screen and (max-width: 950px) {
   .navbar .menu {
