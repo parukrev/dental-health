@@ -342,7 +342,10 @@ body {
 
 #about .content .offer .content-offer .desc {
   margin: 0;
+  font-size: .87em;
+  width: 60%;
 }
+
 /* Responsive Design */
 @media screen and (max-width: 950px) {
   .navbar .menu {
@@ -475,6 +478,62 @@ body {
     width: 100%;
     margin: 20px 0;
   }
+
+  #about .wrapper {
+    flex-direction: column;
+  }
+
+  #about .photo {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+  }
+
+  #about .photo img {
+    width: 200px;
+  }
+
+  #about .content {
+    width: 100%;
+    margin: 0;
+    padding-top: 50px;
+  }
+
+  #about .content .sub-title {
+    font-size: 1em;
+  }
+
+  #about .content .title {
+    font-size: 2.3em;
+    width: 90%;
+  }
+
+  #about .content .desc {
+    font-size: .87em;
+  }
+
+  #about .content .offer .icon-box {
+    width: 70px;
+    height: 70px;
+  }
+
+  #about .content .offer .icon-box img {
+    width: 30px;
+    height: 30px;
+  }
+
+  #about .content .offer .content-offer {
+    margin-left: 20px;
+  }
+
+  #about .content .offer .content-offer h4 {
+    font-size: 1.2em;
+  }
+
+  #about .content .offer .content-offer .desc {
+    width: 90%;
+    font-size: .8em;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -544,5 +603,52 @@ body {
   /* Features */
   #features .feature .title {
     font-size: 1.1em;
+  }
+
+  /* About */
+  #about .photo {
+    height: 300px;
+  }
+
+  #about .photo img {
+    width: 150px;
+  }
+
+  #about .content .sub-title {
+    font-size: .87em;
+  }
+
+  #about .content .title {
+    font-size: 1.7em;
+    width: 100%;
+  }
+
+  #about .content .desc {
+    font-size: .8em;
+  }
+
+  #about .content .offer .icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+  #about .content .offer .icon-box img {
+    width: 25px;
+    height: 25px;
+  }
+
+  #about .content .offer .content-offer h4 {
+    font-size: 1em;
+  }
+
+  #about .content .offer .content-offer .desc {
+    font-size: .7em;
+    width: 100%;
+    margin-top: 10px;
   }
 }
