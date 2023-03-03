@@ -445,6 +445,21 @@ body {
   color: var(--theme-color2);
 }
 
+/* Story Section */
+#story {
+  background-color: var(--color-white);
+  width: 100%;
+  padding: 100px 0;
+}
+
+#story .wrapper {
+  display: flex;
+}
+
+#story .content {
+  width: 50%;
+}
+
 /* Responsive Design */
 @media screen and (max-width: 950px) {
   .navbar .menu {
@@ -506,7 +521,7 @@ body {
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     opacity: 0;
-}
+  }
 
   .navbar .menu.off {
     display: flex;
