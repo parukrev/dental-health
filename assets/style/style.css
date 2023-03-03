@@ -606,6 +606,10 @@ body {
   }
 
   /* About */
+  #about {
+    padding-bottom: 50px;
+  }
+
   #about .photo {
     height: 300px;
   }
@@ -635,7 +639,7 @@ body {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-}
+  }
 
   #about .content .offer .icon-box img {
     width: 25px;
