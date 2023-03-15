@@ -581,10 +581,12 @@ body {
 
 #dentists .row-dentists {
   display: flex;
+  justify-content: center;
 }
 
 #dentists .dentist {
   width: 23%;
+  margin: 20px;
 }
 
 #dentists .dentist .photo {
