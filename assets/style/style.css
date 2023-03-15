@@ -552,6 +552,91 @@ body {
   margin-top: -200px;
 }
 
+/* Denstist Section */
+#dentists {
+  background-color: var(--color-white);
+  padding: 100px 0;
+}
+
+#dentists .row-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#dentists .row-title .title {
+  color: var(--font-color);
+  font-size: 3.5em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#dentists .row-title .desc {
+  color: var(--font-color-hover);
+  width: 60%;
+  text-align: center;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}
+
+#dentists .row-dentists {
+  display: flex;
+}
+
+#dentists .dentist {
+  width: 23%;
+}
+
+#dentists .dentist .photo {
+  width: 100%;
+  background-color: var(--color-blue-hover);
+  border: solid 1px var(--theme-color2);
+  border-bottom: 0;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#dentists .dentist .photo img {
+  width: 200px;
+}
+
+#dentists .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid 1px var(--theme-color2);
+  border-top: 0;
+}
+
+#dentists .content .dentist-name {
+  font-size: 1.5em;
+  color: var(--font-color);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#dentists .content .role-dentist {
+  color: var(--font-color2);
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#dentists .content .appointment {
+  color: var(--color-white);
+  background-color: var(--theme-color2);
+  padding: 12px 30px;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+}
+
 /* Responsive Design */
 @media screen and (max-width: 950px) {
   .navbar .menu {
