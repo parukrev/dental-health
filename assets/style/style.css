@@ -786,6 +786,30 @@ body {
   #story .content .desc {
     font-size: .87em;
   }
+
+  #story .content .achievement-box {
+    padding: 25px 30px;
+  }
+
+  #story .content .achievement-box .achievement-number {
+    font-size: 2em;
+    font-weight: 600;
+  }
+
+  #story .content .achievement-box .achievement-desc {
+    color: var(--font-color2);
+    font-size: .8em;
+  }
+
+  #story .photo {
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+  }
+
+  #story .photo img {
+    margin-top: -100px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -937,5 +961,32 @@ body {
 
   #services .service-row .service-box .service-desc {
     font-size: .8em;
+  }
+
+  /* Story Section */
+  #story .content .achievement-box {
+    padding: 25px 30px;
+  }
+
+  #story .content .achievement-box .achievement-number {
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+
+  #story .content .achievement-box .achievement-desc {
+    color: var(--font-color2);
+    font-size: .7em;
+    text-align: center;
+  }
+
+  #story .photo {
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+  }
+
+  #story .photo img {
+    margin-top: -50px;
   }
 }
