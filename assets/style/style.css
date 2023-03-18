@@ -897,6 +897,28 @@ body {
   #story .photo img {
     margin-top: -100px;
   }
+
+  /* Dentist Section */
+  #dentists .row-title .title {
+    font-size: 2.3em;
+    text-align: center;
+    line-height: 48px;
+    margin-bottom: 20px;
+  }
+
+  #dentists .row-title .desc {
+    font-size: .87em;
+    width: 100%;
+  }
+
+  #dentists .row-dentists {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #dentists .row-dentists .dentist {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 400px) {
