@@ -1098,4 +1098,35 @@ body {
   #story .photo img {
     margin-top: -50px;
   }
+
+  /* Dentist Section */
+  #dentists .row-title .title {
+    font-size: 1.7em;
+    line-height: 32px;
+  }
+
+  #dentists .row-title .desc {
+    font-size: .8em;
+  }
+
+  #dentists .row-dentists .dentist {
+    width: 90%;
+  }
+
+  #dentists .dentist .photo img {
+    width: 120px;
+  }
+
+  #dentists .content .dentist-name {
+    font-size: 1.2em;
+  }
+  
+  #dentists .content .role-dentist {
+    font-size: .87em;
+    line-height: 20px;
+  }
+  
+  #dentists .content .appointment {
+    font-size: .87em;
+  }
 }
