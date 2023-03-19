@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
 :root {
   --theme-color1: #F5FAFE;
   --theme-color2: #1479FF;
@@ -7,6 +9,7 @@
   --color-white: #FFFFFF;
   --color-blue-hover: rgba(20, 121, 255, .2);
   --main-font: "Poppins", sans-serif;
+  --second-font: "Plus Jakarta Sans", sans-serif;
 }
 
 * {
@@ -637,6 +640,67 @@ body {
   -moz-border-radius: 60px;
   -ms-border-radius: 60px;
   -o-border-radius: 60px;
+}
+
+/* Appointment Section */
+#appointment {
+  background-color: var(--color-white);
+  padding: 100px 0;
+}
+
+#appointment .wrapper {
+  display: flex;
+}
+
+#appointment .content {
+  width: 40%;
+}
+
+#appointment .content .title {
+  color: var(--font-color);
+  font-size: 3.5em;
+  font-weight: 600;
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+
+#appointment .content .desc {
+  color: var(--font-color2);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin-bottom: 40px;
+}
+
+#appointment .contact {
+  background-color: rgba(20, 122, 255, 0.07);
+  padding: 100px 60px;
+  border-radius: 70px;
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  -ms-border-radius: 70px;
+  -o-border-radius: 70px;
+}
+
+#appointment .contact .sub-title {
+  color: var(--font-color);
+  font-family: var(--second-font);
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+#appointment .contact ul li {
+  color: #666666;
+  font-family: var(--second-font);
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+#appointment .contact ul li i {
+  color: var(--theme-color2);
+  margin-right: 10px;
 }
 
 /* Responsive Design */
