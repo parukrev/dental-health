@@ -292,28 +292,28 @@
           <h4 class="sub-title">Appointment</h4>
           <form action="">
             <div class="row-input">
-              <input type="text" name="patient-name" id="patient-name" placeholder="Patient Name">
-              <select name="gender" id="gender">
+              <input type="text" name="patient-name" id="patient-name" placeholder="Patient Name" class="input">
+              <select name="gender" id="gender" class="input">
                 <option value="">Gender</option>
                 <option value="male">Male</option>
                 <option value="female">Female</option>
               </select>
             </div>
             <div class="row-input">
-              <input type="number" name="phone-number" id="phone-number" placeholder="Phone Number">
-              <input type="email" name="email" id="email" placeholder="Email">
+              <input type="number" name="phone-number" id="phone-number" placeholder="Phone Number" class="input">
+              <input type="email" name="email" id="email" placeholder="Email" class="input">
             </div>
             <div class="row-input">
-              <select name="department" id="department">
+              <select name="department" id="department" class="input">
                 <option value="">Department</option>
                 <option value="rezadentalcare">Reza Dental Clinic</option>
                 <option value="jakartadentalcare">Jakarta Dental Care</option>
                 <option value="balidental">Bali Dental</option>
               </select>
-              <input type="date" name="date" id="date" placeholder="Date">
+              <input required="" type="text" name="date" id="date" placeholder="Date" class="input" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}"/>
             </div>
             <div class="row-input">
-              <textarea name="details" id="details" cols="30" rows="10" placeholder="More details"></textarea>
+              <textarea name="details" id="details" cols="30" rows="10" placeholder="More details" class="input"></textarea>
             </div>
             <div class="row-input">
               <button type="submit">Send Massage</button>
