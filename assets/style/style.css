@@ -1057,6 +1057,37 @@ body {
   #dentists .row-dentists .dentist {
     width: 70%;
   }
+
+  /* Appointment Section */
+  #appointment .wrapper {
+    flex-direction: column;
+  }
+
+  #appointment .content {
+    width: 100%;
+  }
+
+  #appointment .content .title {
+    font-size: 2.3em;
+  }
+
+  #appointment .content .desc {
+    font-size: .87em;
+  }
+
+  #appointment .contact .sub-title {
+    font-size: 1.3em;
+  }
+
+  #appointment .contact ul li {
+    font-size: .87em;
+  }
+
+  #appointment .form {
+    width: 100%;
+    margin: 0;
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -1266,5 +1297,45 @@ body {
   
   #dentists .content .appointment {
     font-size: .87em;
+  }
+
+  /* Appointment Section */
+  #appointment .wrapper {
+    flex-direction: column;
+  }
+
+  #appointment .content {
+    width: 100%;
+  }
+
+  #appointment .content .title {
+    font-size: 1.7em;
+  }
+
+  #appointment .content .desc {
+    font-size: .8em;
+  }
+
+  #appointment .contact .sub-title {
+    font-size: 1.2em;
+  }
+
+  #appointment .contact ul li {
+    font-size: .8em;
+  }
+
+  #appointment .form .row-input {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  #appointment .form .input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #appointment .form select.input {
+    padding: 20px;
+    padding-left: 15px;
   }
 }
